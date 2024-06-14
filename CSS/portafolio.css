@@ -1,0 +1,132 @@
+/**HEADER**/
+
+.header-portafolio
+{
+  border-bottom: solid var(--gris);
+  padding-bottom: 10rem;
+}
+
+
+.header-superior
+{
+  display: flex;
+ flex-direction: column;
+
+}
+
+
+
+
+@media (min-width:1180px) 
+{
+   
+  .banner-portafolio
+  {
+    display:flex;
+   align-items: center;
+    gap: 5rem;
+  }
+  
+  
+}
+
+
+.titulo-portafolio
+{
+  font-size: 5.6rem;
+}
+
+.p-portafolio
+{
+  font-size: 2rem;
+  width: 55rem;
+}
+
+.banner-texto
+{
+  
+  
+   text-align: center;  
+  
+}
+@media (min-width:768px) {
+
+  .banner-texto
+  { 
+    text-align: start;  
+ 
+
+  }
+  
+  
+}
+
+/**SECCION1**/
+
+
+.subseccion
+{
+  padding-bottom: 5rem;
+}
+@media (min-width:920px) {
+
+  .texto
+  { 
+    text-align: start;  
+    padding:8rem;
+    
+
+  }
+  
+  
+}
+.t-seccion-portafolio
+{
+  padding-bottom: 2rem;
+}
+
+.texto
+{ 
+
+ padding-top:  4rem;
+
+
+}
+@media (min-width:1240px) {
+
+  .texto
+  { 
+    text-align: start;  
+    padding:8rem;
+
+  }
+  
+  
+}
+/**seccion2**/
+
+.texto-seccion2
+{
+  text-align: start;
+}
+
+/**seccion3**/
+@media (min-width:1440px ) 
+{
+.pages
+{
+display: flex;
+gap: 20rem;
+}
+    
+} 
+
+
+.texto-pages
+{
+
+
+ 
+ align-content: center;
+
+}
